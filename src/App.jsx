@@ -89,7 +89,7 @@ function Navbar() {
     <header className={`nav ${scrolled ? 'nav--scrolled' : ''}`}>
       <a href="#home" className="logo" onClick={() => setOpen(false)}>
         <span className="logo-cube">K</span>
-        <span>Kuldeep<b>.dev</b></span>
+        <span>Kuldeep<b>.Singh</b></span>
       </a>
       <nav className={`nav-links ${open ? 'open' : ''}`}>
         {NAV.map((n) => (
